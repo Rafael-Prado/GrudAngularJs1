@@ -1,0 +1,64 @@
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\GrudCom Angular.dll.config
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\GrudCom Angular.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\GrudCom Angular.pdb
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\Antlr3.Runtime.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\EntityFramework.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\EntityFramework.SqlServer.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\Microsoft.Web.Infrastructure.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\Newtonsoft.Json.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.Helpers.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.Mvc.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.Optimization.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.Razor.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.WebPages.Deployment.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.WebPages.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.WebPages.Razor.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\WebGrease.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\EntityFramework.xml
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\EntityFramework.SqlServer.xml
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.Helpers.xml
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.Mvc.xml
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.Optimization.xml
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.Razor.xml
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.WebPages.xml
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.WebPages.Deployment.xml
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\System.Web.WebPages.Razor.xml
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\Antlr3.Runtime.pdb
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\bin\Newtonsoft.Json.xml
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\obj\Debug\GrudCom Angular.dll
+c:\users\juliano torquato\documents\visual studio 2013\Projects\GrudCom Angular\GrudCom Angular\obj\Debug\GrudCom Angular.pdb
+C:\Users\Juliano Torquato\Documents\Visual Studio 2013\Projects\GrudCom Angular\GrudCom Angular\obj\Debug\GrudCom_Angular.Migrations.InitialCreate.resources
+C:\Users\Juliano Torquato\Documents\Visual Studio 2013\Projects\GrudCom Angular\GrudCom Angular\obj\Debug\GrudComAngular.csproj.GenerateResource.Cache
+C:\Users\Juliano Torquato\Documents\Visual Studio 2013\Projects\GrudCom Angular\GrudCom Angular\obj\Debug\GrudComAngular.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\GrudCom Angular.dll.config
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\GrudCom Angular.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\GrudCom Angular.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\Antlr3.Runtime.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\EntityFramework.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\EntityFramework.SqlServer.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\Newtonsoft.Json.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.Helpers.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.Mvc.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.Optimization.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.Razor.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.WebPages.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\WebGrease.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\EntityFramework.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\EntityFramework.SqlServer.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.Helpers.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.Mvc.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.Optimization.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.Razor.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.WebPages.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\Antlr3.Runtime.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\bin\Newtonsoft.Json.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\obj\Debug\GrudComAngular.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\obj\Debug\GrudCom_Angular.Migrations.InitialCreate.resources
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\obj\Debug\GrudComAngular.csproj.GenerateResource.Cache
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\obj\Debug\GrudCom Angular.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\GrudAngular\GrudCom Angular\obj\Debug\GrudCom Angular.pdb

@@ -1,0 +1,191 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div ng-app="myApp" style="margin-top: 100px" class="jumbotron">
+    <div ng-controller="myCtrl">
+
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-md-2" for="Nome">Nome</label>
+                <div class="col-md-10">
+                    <input class="form-control " ng-model="aPessoaFisica.Nome" name="Nome" type="text" value="" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="Cpf">Cpf</label>
+                <div class="col-md-10">
+                    <input class="form-control" ng-model="aPessoaFisica.Cpf" name="Cpf" type="text" value="" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="Rg">Rg</label>
+                <div class="col-md-10">
+                    <input class="form-control" ng-model="aPessoaFisica.Rg" name="Rg" type="text" value="" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-2">
+                    <input type="button" ng-click="AddPessoaFisica(aPessoaFisica)" value="Salvar" class="btn btn-primary" />
+
+                </div>
+            </div>
+        </form>
+
+        <h4>Pessoa</h4>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Sl</th>
+                    <th>Nome</th>
+                    <th>Cpf</th>
+                    <th>Rg</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="aPessoaFisica in pessoaFisicas">
+                    <td>{{$index + 1}}</td>
+                    <td>{{aPessoaFisica.Nome}}</td>
+                    <td>{{aPessoaFisica.Cpf}}</td>
+                    <td>{{aPessoaFisica.Rg}}</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+        
+        <h3>Adionar Endereco</h3>
+       
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-md-2" for="Nome">Cidade</label>
+                <div class="col-md-10">
+                    <input class="form-control " ng-model="aEndereco.Cidade" name="Cidade" type="text" value="" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="Bairro">Bairro</label>
+                <div class="col-md-10">
+                    <input class="form-control" ng-model="aEndereco.Bairro" name="Bairro" type="text" value="" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="Rua">Rua</label>
+                <div class="col-md-10">
+                    <input class="form-control" ng-model="aEndereco.Rua" name="Rua" type="text" value="" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2" for="Complemento">Complemento</label>
+                <div class="col-md-10">
+                    <input class="form-control" ng-model="aEndereco.Complemento" name="Complemento" type="text" value="" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2" for="Numero">Numero</label>
+                <div class="col-md-10">
+                    <input class="form-control" ng-model="aEndereco.Numero" name="Numero" type="text" value="" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-2">
+                    <input type="button" ng-click="AddEndereco(aEndereco)" value="Salvar" class="btn btn-primary" />
+
+                </div>
+            </div>
+        </form>
+
+        
+        <h4>Endereco</h4>
+        <table class="table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>SL</th>
+                    <th>Cidade</th>
+                    <th>Bairro</th>
+                    <th>Rua</th>
+                    <th>Complemento</th>
+                    <th>Numero</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="aEndereco in enderecos">
+                    <td>{{$index + 1}}</td>
+                    <td>{{aEndereco.Cidade}}</td>
+                    <td>{{aEndereco.Bairro}}</td>
+                    <td>{{aEndereco.Rua}}</td>
+                    <td>{{aEndereco.Complemento}}</td>
+                    <td>{{aEndereco.Numero}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+    
+
+    
+@section scripts{
+    <script src="~/Scripts/angular.js"></script>
+    <script>
+        var app = angular.module("myApp", [])
+        .controller("myCtrl", function ($scope, $http) {
+            $scope.pessoaFisicas = [];
+            $http.get('@Url.Action("GetAllPessoaFisica", "PessoaFisica")').success(function (data) {
+                    $scope.pessoaFisicas = data;
+                }).
+                error(function(data, status, readers, config) {
+
+                });
+
+            $scope.AddPessoaFisica = function(aPessoaFisica) {
+                $http({
+                    traditional: true,
+                    url: '@Url.Action("Create", "PessoaFisica")',
+                    method: "Post",
+                    data: JSON.stringify(aPessoaFisica),
+                    dataType: "json"
+                }).success(function (data) {
+                    $scope.pessoaFisicas.push(angular.copy(aPessoaFisica));
+                    delete $scope.aPessoaFisica;
+                }).error(function (data) {
+
+                });
+            };
+
+
+            $scope.enderecos = [];
+            $http.get('@Url.Action("GetEndereco", "Endereco")').success(function (data) {
+                $scope.enderecos = data;
+            }).
+                error(function (data, status, readers, confg) {
+                });
+
+            $scope.AddEndereco = function (aEndereco) {
+                $http({
+                    traditional: true,
+                    url: '@Url.Action("Create", "Endereco")',
+                    method: "Post",
+                    data: JSON.stringify(aEndereco),
+                    dataType: "json"
+                }).success(function (data) {
+                    $scope.enderecos.push(angular.copy(aEndereco));
+                    delete $scope.aEndereco;
+                }).error(function (data) {
+
+                });
+            };
+
+        });
+
+
+
+</script>
+    }
